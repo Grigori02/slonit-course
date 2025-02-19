@@ -6,6 +6,5 @@ const operations = {
   };
   
   const calculate = (a, b, operation) => operation(a, b);
-  
   const selectedOperation = "multiply";
   console.log(calculate(6, 3, operations[selectedOperation]));
